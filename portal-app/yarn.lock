@@ -728,7 +728,7 @@
     levenary "^1.1.1"
     semver "^5.5.0"
 
-"@babel/runtime@^7.8.4":
+"@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.8.4"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.8.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha1-159aIED3yqJNU+VjqtScvAVYEwg=
@@ -4140,6 +4140,13 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
+import-html-entry@^1.3.9:
+  version "1.3.10"
+  resolved "http://118.31.173.195:4873/import-html-entry/-/import-html-entry-1.3.10.tgz#d6f877802cea56de9abf69d4b3c0bfa3c3ad4fce"
+  integrity sha512-j6bvf/we6z2gGwfpZ80iHl6e5b4dlcatjZzvHmoYqcB8w3Xxe6vPgSfph9cKuNvR7/XoQrCqrkP79SDVM0DjSg==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+
 import-local@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/import-local/download/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
@@ -6322,6 +6329,17 @@ q@^1.1.2:
   resolved "https://registry.npm.taobao.org/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qiankun@^1.3.14:
+  version "1.3.14"
+  resolved "http://118.31.173.195:4873/qiankun/-/qiankun-1.3.14.tgz#9ba9db0c1bf3e1adb748151fdea840f9d5ffbec5"
+  integrity sha512-b4x834XoiW+9Up12jYidJ9qRniToglJfIMtkcWJarLZQRE0R8wIYgMWGRvQzf4JxP8V7s9LM87d0CAMriDA4tQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    import-html-entry "^1.3.9"
+    lodash "^4.17.11"
+    single-spa "^4.3.4"
+    tslib "^1.10.0"
+
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -6892,6 +6910,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+single-spa@^4.3.4:
+  version "4.4.3"
+  resolved "http://118.31.173.195:4873/single-spa/-/single-spa-4.4.3.tgz#4dff3a17f633b732691cff25cf0bf0897ecdfd37"
+  integrity sha512-xpbCMrA3TtzJkjiq6zwxZQTqBTWtUrq4IDZWT+tOba+FgbFSrvCDCmHhadxDO9fm3JBuyELvKoS8qD73gUIh9Q==
 
 slash@^1.0.0:
   version "1.0.0"
@@ -7518,7 +7541,7 @@ ts-pnp@^1.1.6:
   resolved "https://registry.npm.taobao.org/ts-pnp/download/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
   integrity sha1-OJokOW1CWg0xYultK0Y4kA/cKJo=
 
-tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.9.0:
   version "1.11.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.11.0.tgz#f1f3528301621a53220d58373ae510ff747a66bc"
   integrity sha1-8fNSgwFiGlMiDVg3OuUQ/3R6Zrw=
@@ -7826,6 +7849,11 @@ vue-loader@^15.8.3:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.1.6:
+  version "3.1.6"
+  resolved "http://118.31.173.195:4873/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
+  integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
