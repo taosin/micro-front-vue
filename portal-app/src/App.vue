@@ -2,12 +2,12 @@
   <div id="main-root">
     <el-container>
       <el-aside width="200px">
-        <el-menu default-active="app1" class="el-menu-vertical-demo" router>
-          <el-menu-item index="app1">
+        <el-menu default-active="app1" class="el-menu-vertical-demo" :router="true">
+          <el-menu-item index="/app1">
             <i class="el-icon-menu"></i>
             <span slot="title">子应用1</span>
           </el-menu-item>
-          <el-menu-item index="app2">
+          <el-menu-item index="/app2">
             <i class="el-icon-document"></i>
             <span slot="title">子应用2</span>
           </el-menu-item>
